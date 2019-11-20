@@ -1,0 +1,77 @@
+html {
+   
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     
+   }
+body.index {
+   background: rgba(49, 24, 71, 0.25) url('images/triskedelion.svg') no-repeat center right fixed;
+alt:"black and white image showing how to construct a triskedelion; a circular image divided into 3 equal segments";
+background-size: contain;
+}
+body.cv {
+    background: rgba(36, 11, 58, 0.25) url('images/mosaic.svg') no-repeat center right fixed;
+    background-size: contain;
+    
+  }
+body.aboutme {
+    background: rgba(192, 216, 229, 0.1) url("images/asianCloud.svg") no-repeat center top fixed;
+    background-size: cover;
+
+}
+
+
+h1 {
+    font: small-caps bold 36px;
+    color: black;
+    opacity: 1;
+    text-align: left;
+    margin: 15% auto;
+}
+
+p {
+    font-size: 24px;
+    
+}
+footer {
+    display: flex;
+       font-size: 20px;
+    
+}
+#aboutmeimage {
+    display: flex;
+    width: 150px;
+    height: auto;
+    border: 10px solid rgba(36, 11, 58,0.75);
+}
+#made {
+    display:flex;
+    width:200px;
+    height: auto
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+#sidebar{
+    display:flex;
+    width: 500px;
+    font-size: 8px;
+    margin-left: 10px;
+    justify-content: space-between
+}
+#fancy-box {
+    display: flex;
+    border: 10px solid black;
+    border-radius: 15%;
+   }
+   #inner-container {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       max-width: 85vw; 
+height: calc(100vh-20px);
+
+   }
